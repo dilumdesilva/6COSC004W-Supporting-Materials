@@ -9,3 +9,8 @@ This module was design by the university of westminster under the degree program
 ## Tutorials - Supporting Materials 
 
 1. [Week one and wwo tutorials]()
+
+
+## Addtional materials to read and explore
+
+[Introduction to Xcode - WWDC](https://developer.apple.com/videos/play/wwdc2016/413/)
