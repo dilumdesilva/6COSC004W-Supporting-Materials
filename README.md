@@ -4,7 +4,7 @@ This module was design by the university of westminster under the degree program
 
 ## Lecture - Supporting Materials 
 
-1. [Color Picker]() 
+1. [Color Mixer](/ColorMixer) 
 
 ## Tutorials - Supporting Materials 
 
