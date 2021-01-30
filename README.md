@@ -13,6 +13,6 @@ This module was design by the university of westminster under the degree program
 
 ## Addtional materials to read and explore
 
-[Introduction to Xcode - WWDC](https://developer.apple.com/videos/play/wwdc2016/413/)
-[MVVM and Coordinators](https://dev.to/tom0pearson/mvvm-and-coordinators-is-the-industry-standard-architecture-2mo3)
-[Different flavors of view models in Swift](https://www.swiftbysundell.com/articles/different-flavors-of-view-models-in-swift/)
+- [Introduction to Xcode - WWDC](https://developer.apple.com/videos/play/wwdc2016/413/)
+- [MVVM and Coordinators](https://dev.to/tom0pearson/mvvm-and-coordinators-is-the-industry-standard-architecture-2mo3)
+- [Different flavors of view models in Swift](https://www.swiftbysundell.com/articles/different-flavors-of-view-models-in-swift/)
