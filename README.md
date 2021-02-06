@@ -5,10 +5,11 @@ This module was design by the university of westminster under the degree program
 ## Lecture - Supporting Materials 
 
 1. [Color Mixer](/ColorMixer) 
+2. [Utility Converter](/UtilityConverter)
 
 ## Tutorials - Supporting Materials 
 
-1. [Week one and wwo tutorials]()
+1. [Week one and two tutorials]()
 
 
 ## Addtional materials to read and explore
@@ -16,3 +17,7 @@ This module was design by the university of westminster under the degree program
 - [Introduction to Xcode - WWDC](https://developer.apple.com/videos/play/wwdc2016/413/)
 - [MVVM and Coordinators](https://dev.to/tom0pearson/mvvm-and-coordinators-is-the-industry-standard-architecture-2mo3)
 - [Different flavors of view models in Swift](https://www.swiftbysundell.com/articles/different-flavors-of-view-models-in-swift/)
+- [Swift: required init decoder](https://medium.com/@CoderLyn/swift-required-init-decoder-b3aa829b4acf)
+- [What exactly is init coder aDecoder?
+](https://stackoverflow.com/questions/38386339/what-exactly-is-init-coder-adecoder)
+- [Overview of UINavigationController](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
