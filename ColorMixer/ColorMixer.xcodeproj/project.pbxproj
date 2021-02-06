@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E5E4A5923EB2C9400174D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E4A5823EB2C9400174D03 /* AppDelegate.swift */; };
-		4E5E4A5B23EB2C9400174D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E4A5A23EB2C9400174D03 /* SceneDelegate.swift */; };
-		4E5E4A5D23EB2C9400174D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E4A5C23EB2C9400174D03 /* ViewController.swift */; };
-		4E5E4A6023EB2C9400174D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E4A5E23EB2C9400174D03 /* Main.storyboard */; };
-		4E5E4A6223EB2C9700174D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E4A6123EB2C9700174D03 /* Assets.xcassets */; };
-		4E5E4A6523EB2C9700174D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E4A6323EB2C9700174D03 /* LaunchScreen.storyboard */; };
-		4E5E4A6D23EB6A6300174D03 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E4A6C23EB6A6300174D03 /* Colour.swift */; };
+		4E07A8C625C5312B00CF08DE /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07A8C525C5312B00CF08DE /* Colour.swift */; };
+		4E07A8CA25C534D200CF08DE /* ColorMixerVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07A8C925C534D200CF08DE /* ColorMixerVController.swift */; };
+		4EA5FA3225BBF8540043E59C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3125BBF8540043E59C /* AppDelegate.swift */; };
+		4EA5FA3425BBF8540043E59C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3325BBF8540043E59C /* SceneDelegate.swift */; };
+		4EA5FA3925BBF8540043E59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3725BBF8540043E59C /* Main.storyboard */; };
+		4EA5FA3B25BBF8560043E59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3A25BBF8560043E59C /* Assets.xcassets */; };
+		4EA5FA3E25BBF8560043E59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3C25BBF8560043E59C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E5E4A5523EB2C9400174D03 /* ColorMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E5E4A5823EB2C9400174D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E5E4A5A23EB2C9400174D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E5E4A5C23EB2C9400174D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4E5E4A5F23EB2C9400174D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4E5E4A6123EB2C9700174D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E5E4A6423EB2C9700174D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4E5E4A6623EB2C9700174D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E5E4A6C23EB6A6300174D03 /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		4E07A8C525C5312B00CF08DE /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		4E07A8C925C534D200CF08DE /* ColorMixerVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixerVController.swift; sourceTree = "<group>"; };
+		4EA5FA2E25BBF8540043E59C /* ColorMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA5FA3125BBF8540043E59C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EA5FA3325BBF8540043E59C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EA5FA3825BBF8540043E59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EA5FA3A25BBF8560043E59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EA5FA3D25BBF8560043E59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EA5FA3F25BBF8560043E59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E5E4A5223EB2C9400174D03 /* Frameworks */ = {
+		4EA5FA2B25BBF8540043E59C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,33 +39,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E5E4A4C23EB2C9400174D03 = {
+		4E07A8C125C52F4C00CF08DE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4E5E4A5723EB2C9400174D03 /* ColorMixer */,
-				4E5E4A5623EB2C9400174D03 /* Products */,
+				4E07A8C525C5312B00CF08DE /* Colour.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E07A8C225C52F5400CF08DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5FA3725BBF8540043E59C /* Main.storyboard */,
+				4EA5FA3C25BBF8560043E59C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E07A8C325C52F6200CF08DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E07A8C925C534D200CF08DE /* ColorMixerVController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4E07A8C425C530CB00CF08DE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5FA3125BBF8540043E59C /* AppDelegate.swift */,
+				4EA5FA3325BBF8540043E59C /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4EA5FA2525BBF8540043E59C = {
+			isa = PBXGroup;
+			children = (
+				4EA5FA3025BBF8540043E59C /* ColorMixer */,
+				4EA5FA2F25BBF8540043E59C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E5E4A5623EB2C9400174D03 /* Products */ = {
+		4EA5FA2F25BBF8540043E59C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E5E4A5523EB2C9400174D03 /* ColorMixer.app */,
+				4EA5FA2E25BBF8540043E59C /* ColorMixer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E5E4A5723EB2C9400174D03 /* ColorMixer */ = {
+		4EA5FA3025BBF8540043E59C /* ColorMixer */ = {
 			isa = PBXGroup;
 			children = (
-				4E5E4A5823EB2C9400174D03 /* AppDelegate.swift */,
-				4E5E4A5A23EB2C9400174D03 /* SceneDelegate.swift */,
-				4E5E4A5C23EB2C9400174D03 /* ViewController.swift */,
-				4E5E4A5E23EB2C9400174D03 /* Main.storyboard */,
-				4E5E4A6123EB2C9700174D03 /* Assets.xcassets */,
-				4E5E4A6323EB2C9700174D03 /* LaunchScreen.storyboard */,
-				4E5E4A6623EB2C9700174D03 /* Info.plist */,
-				4E5E4A6C23EB6A6300174D03 /* Colour.swift */,
+				4E07A8C425C530CB00CF08DE /* Common */,
+				4E07A8C325C52F6200CF08DE /* Controllers */,
+				4E07A8C225C52F5400CF08DE /* Views */,
+				4E07A8C125C52F4C00CF08DE /* Models */,
+				4EA5FA3A25BBF8560043E59C /* Assets.xcassets */,
+				4EA5FA3F25BBF8560043E59C /* Info.plist */,
 			);
 			path = ColorMixer;
 			sourceTree = "<group>";
@@ -73,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E5E4A5423EB2C9400174D03 /* ColorMixer */ = {
+		4EA5FA2D25BBF8540043E59C /* ColorMixer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E5E4A6923EB2C9700174D03 /* Build configuration list for PBXNativeTarget "ColorMixer" */;
+			buildConfigurationList = 4EA5FA4225BBF8560043E59C /* Build configuration list for PBXNativeTarget "ColorMixer" */;
 			buildPhases = (
-				4E5E4A5123EB2C9400174D03 /* Sources */,
-				4E5E4A5223EB2C9400174D03 /* Frameworks */,
-				4E5E4A5323EB2C9400174D03 /* Resources */,
+				4EA5FA2A25BBF8540043E59C /* Sources */,
+				4EA5FA2B25BBF8540043E59C /* Frameworks */,
+				4EA5FA2C25BBF8540043E59C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,25 +119,24 @@
 			);
 			name = ColorMixer;
 			productName = ColorMixer;
-			productReference = 4E5E4A5523EB2C9400174D03 /* ColorMixer.app */;
+			productReference = 4EA5FA2E25BBF8540043E59C /* ColorMixer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E5E4A4D23EB2C9400174D03 /* Project object */ = {
+		4EA5FA2625BBF8540043E59C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Dilum De Silva";
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					4E5E4A5423EB2C9400174D03 = {
-						CreatedOnToolsVersion = 11.1;
+					4EA5FA2D25BBF8540043E59C = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 4E5E4A5023EB2C9400174D03 /* Build configuration list for PBXProject "ColorMixer" */;
+			buildConfigurationList = 4EA5FA2925BBF8540043E59C /* Build configuration list for PBXProject "ColorMixer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +144,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 4E5E4A4C23EB2C9400174D03;
-			productRefGroup = 4E5E4A5623EB2C9400174D03 /* Products */;
+			mainGroup = 4EA5FA2525BBF8540043E59C;
+			productRefGroup = 4EA5FA2F25BBF8540043E59C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E5E4A5423EB2C9400174D03 /* ColorMixer */,
+				4EA5FA2D25BBF8540043E59C /* ColorMixer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E5E4A5323EB2C9400174D03 /* Resources */ = {
+		4EA5FA2C25BBF8540043E59C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E5E4A6523EB2C9700174D03 /* LaunchScreen.storyboard in Resources */,
-				4E5E4A6223EB2C9700174D03 /* Assets.xcassets in Resources */,
-				4E5E4A6023EB2C9400174D03 /* Main.storyboard in Resources */,
+				4EA5FA3E25BBF8560043E59C /* LaunchScreen.storyboard in Resources */,
+				4EA5FA3B25BBF8560043E59C /* Assets.xcassets in Resources */,
+				4EA5FA3925BBF8540043E59C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E5E4A5123EB2C9400174D03 /* Sources */ = {
+		4EA5FA2A25BBF8540043E59C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E5E4A5D23EB2C9400174D03 /* ViewController.swift in Sources */,
-				4E5E4A5923EB2C9400174D03 /* AppDelegate.swift in Sources */,
-				4E5E4A5B23EB2C9400174D03 /* SceneDelegate.swift in Sources */,
-				4E5E4A6D23EB6A6300174D03 /* Colour.swift in Sources */,
+				4E07A8CA25C534D200CF08DE /* ColorMixerVController.swift in Sources */,
+				4EA5FA3225BBF8540043E59C /* AppDelegate.swift in Sources */,
+				4EA5FA3425BBF8540043E59C /* SceneDelegate.swift in Sources */,
+				4E07A8C625C5312B00CF08DE /* Colour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4E5E4A5E23EB2C9400174D03 /* Main.storyboard */ = {
+		4EA5FA3725BBF8540043E59C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4E5E4A5F23EB2C9400174D03 /* Base */,
+				4EA5FA3825BBF8540043E59C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4E5E4A6323EB2C9700174D03 /* LaunchScreen.storyboard */ = {
+		4EA5FA3C25BBF8560043E59C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4E5E4A6423EB2C9700174D03 /* Base */,
+				4EA5FA3D25BBF8560043E59C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +201,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4E5E4A6723EB2C9700174D03 /* Debug */ = {
+		4EA5FA4025BBF8560043E59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,6 +227,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -220,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,7 +262,7 @@
 			};
 			name = Debug;
 		};
-		4E5E4A6823EB2C9700174D03 /* Release */ = {
+		4EA5FA4125BBF8560043E59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,6 +288,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -274,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,11 +317,13 @@
 			};
 			name = Release;
 		};
-		4E5E4A6A23EB2C9700174D03 /* Debug */ = {
+		4EA5FA4325BBF8560043E59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4F2Z2Y438;
 				INFOPLIST_FILE = ColorMixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,11 +336,13 @@
 			};
 			name = Debug;
 		};
-		4E5E4A6B23EB2C9700174D03 /* Release */ = {
+		4EA5FA4425BBF8560043E59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4F2Z2Y438;
 				INFOPLIST_FILE = ColorMixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,25 +358,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E5E4A5023EB2C9400174D03 /* Build configuration list for PBXProject "ColorMixer" */ = {
+		4EA5FA2925BBF8540043E59C /* Build configuration list for PBXProject "ColorMixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E5E4A6723EB2C9700174D03 /* Debug */,
-				4E5E4A6823EB2C9700174D03 /* Release */,
+				4EA5FA4025BBF8560043E59C /* Debug */,
+				4EA5FA4125BBF8560043E59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E5E4A6923EB2C9700174D03 /* Build configuration list for PBXNativeTarget "ColorMixer" */ = {
+		4EA5FA4225BBF8560043E59C /* Build configuration list for PBXNativeTarget "ColorMixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E5E4A6A23EB2C9700174D03 /* Debug */,
-				4E5E4A6B23EB2C9700174D03 /* Release */,
+				4EA5FA4325BBF8560043E59C /* Debug */,
+				4EA5FA4425BBF8560043E59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E5E4A4D23EB2C9400174D03 /* Project object */;
+	rootObject = 4EA5FA2625BBF8540043E59C /* Project object */;
 }

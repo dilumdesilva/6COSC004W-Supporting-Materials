@@ -2,13 +2,12 @@
 //  AppDelegate.swift
 //  ColorMixer
 //
-//  Created by Dilum De Silva on 2/5/20.
-//  Copyright © 2020 Dilum De Silva. All rights reserved.
+//  Created by Dilum De Silva on 2021-01-23.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

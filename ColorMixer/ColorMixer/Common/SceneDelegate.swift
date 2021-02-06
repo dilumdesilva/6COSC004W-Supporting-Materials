@@ -2,8 +2,7 @@
 //  SceneDelegate.swift
 //  ColorMixer
 //
-//  Created by Dilum De Silva on 2/5/20.
-//  Copyright © 2020 Dilum De Silva. All rights reserved.
+//  Created by Dilum De Silva on 2021-01-23.
 //
 
 import UIKit
@@ -24,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
+        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
