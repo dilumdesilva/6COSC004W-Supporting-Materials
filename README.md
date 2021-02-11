@@ -21,3 +21,5 @@ This module was design by the university of westminster under the degree program
 - [What exactly is init coder aDecoder?
 ](https://stackoverflow.com/questions/38386339/what-exactly-is-init-coder-adecoder)
 - [Overview of UINavigationController](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
+- [Collection of common Swift terms](https://www.hackingwithswift.com/glossary)
+- [Deep dive into Swift 5 string inerpolation](https://www.hackingwithswift.com/articles/178/super-powered-string-interpolation-in-swift-5-0)
