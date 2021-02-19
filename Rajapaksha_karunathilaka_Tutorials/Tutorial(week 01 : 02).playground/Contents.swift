@@ -113,3 +113,5 @@ if let answer = divedelWhole(value: 20, divisor: 3) {
 } else {
     print("Not divisible")
 }
+
+print(Int(12.1))
