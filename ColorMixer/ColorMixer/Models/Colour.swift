@@ -8,12 +8,12 @@
 import Foundation
 import UIKit
 
-class Colour {
+class Colour: Codable {
     var redValue: Float = 0.0
     var greeValue: Float = 0.0
     var blueValue: Float = 0.0
     
-    let rgbRange: Float =  255.0
+    var rgbRange: Float =  255.0
     
     init(red: Float, green: Float, blue: Float) {
         redValue = red

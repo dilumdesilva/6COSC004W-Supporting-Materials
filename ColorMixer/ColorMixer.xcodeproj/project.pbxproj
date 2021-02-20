@@ -14,6 +14,8 @@
 		4EA5FA3925BBF8540043E59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3725BBF8540043E59C /* Main.storyboard */; };
 		4EA5FA3B25BBF8560043E59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3A25BBF8560043E59C /* Assets.xcassets */; };
 		4EA5FA3E25BBF8560043E59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5FA3C25BBF8560043E59C /* LaunchScreen.storyboard */; };
+		4ECC7EB425E0EA22005DED55 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC7EB325E0EA22005DED55 /* Helper.swift */; };
+		4ECC7EB825E0EA78005DED55 /* ColorDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC7EB725E0EA78005DED55 /* ColorDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4EA5FA3A25BBF8560043E59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EA5FA3D25BBF8560043E59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EA5FA3F25BBF8560043E59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECC7EB325E0EA22005DED55 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4ECC7EB725E0EA78005DED55 /* ColorDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ColorDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,14 +96,24 @@
 		4EA5FA3025BBF8540043E59C /* ColorMixer */ = {
 			isa = PBXGroup;
 			children = (
+				4ECC7EB225E0E9F8005DED55 /* Helper */,
 				4E07A8C425C530CB00CF08DE /* Common */,
 				4E07A8C325C52F6200CF08DE /* Controllers */,
 				4E07A8C225C52F5400CF08DE /* Views */,
 				4E07A8C125C52F4C00CF08DE /* Models */,
 				4EA5FA3A25BBF8560043E59C /* Assets.xcassets */,
 				4EA5FA3F25BBF8560043E59C /* Info.plist */,
+				4ECC7EB725E0EA78005DED55 /* ColorDefaults.plist */,
 			);
 			path = ColorMixer;
+			sourceTree = "<group>";
+		};
+		4ECC7EB225E0E9F8005DED55 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC7EB325E0EA22005DED55 /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECC7EB825E0EA78005DED55 /* ColorDefaults.plist in Resources */,
 				4EA5FA3E25BBF8560043E59C /* LaunchScreen.storyboard in Resources */,
 				4EA5FA3B25BBF8560043E59C /* Assets.xcassets in Resources */,
 				4EA5FA3925BBF8540043E59C /* Main.storyboard in Resources */,
@@ -174,6 +189,7 @@
 			files = (
 				4E07A8CA25C534D200CF08DE /* ColorMixerVController.swift in Sources */,
 				4EA5FA3225BBF8540043E59C /* AppDelegate.swift in Sources */,
+				4ECC7EB425E0EA22005DED55 /* Helper.swift in Sources */,
 				4EA5FA3425BBF8540043E59C /* SceneDelegate.swift in Sources */,
 				4E07A8C625C5312B00CF08DE /* Colour.swift in Sources */,
 			);

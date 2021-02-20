@@ -25,17 +25,30 @@ class ColorMixerVController: UIViewController {
     @IBOutlet weak var colorOutputImageView: UIImageView!
     
     var generatedColor:Colour?
-    
+    let colourDefaults = Helper.readPlist(withName: "ColorDefaults")
+    let defaults = UserDefaults.standard
+    let encoder = JSONEncoder()
+    let decoder = JSONDecoder()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(saveColorState),
+                                       name: UIApplication.willResignActiveNotification,
+                                       object: nil)
+        
         setupUI()
     }
     
     private func setupUI() {
-        lblRedValue.text = "0"
-        lblGreenValue.text = "0"
-        lblBlueValue.text = "0"
+        
+        //init state
+        let initialLabelText = colourDefaults?.object(forKey: "colourLabelText") as? String
+        
+        lblRedValue.text = initialLabelText
+        lblGreenValue.text = initialLabelText
+        lblBlueValue.text = initialLabelText
         
         redValueSlider.tintColor = UIColor.red
         redValueSlider.thumbTintColor = UIColor.red
@@ -56,6 +69,24 @@ class ColorMixerVController: UIViewController {
         
         colorOutputImageView.layer.cornerRadius = colorOutputImageView.frame.size.width/2
         
+        //custom state
+        if let colorStateData = defaults.object(forKey: "curreentState") as? Data {
+            if let colorState = try? decoder.decode(Colour.self, from: colorStateData) {
+                colorOutputImageView.backgroundColor = colorState.getColour()
+                lblRedValue.text = String(format: "%.0f", colorState.redValue)
+                lblGreenValue.text = String(format: "%.0f", colorState.greeValue)
+                lblBlueValue.text = String(format: "%.0f", colorState.blueValue)
+            }
+        }
+    }
+    
+    //To save state of generatedColor obj
+    @objc func saveColorState() {
+        print("Now on background")
+        
+        if let encodedColorObj = try? encoder.encode(generatedColor) {
+            defaults.setValue(encodedColorObj ,forKey: "curreentState")
+        }
     }
     
     @IBAction func redValueChanged(_ sender: UISlider) {
