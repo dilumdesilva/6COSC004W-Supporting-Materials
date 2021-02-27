@@ -41,3 +41,15 @@ if !defaults.synchronize() {print("Default sync failed")}
 var someString = "Hello World"
 let length = (someString as NSString).length
 print("length: \(length)")
+
+
+//Measurement
+
+// Temperature caluations
+let temp = Measurement(value: 90, unit: UnitTemperature.fahrenheit)
+print("User input of temperature: \(temp)")
+
+let tempInCelcious = temp.converted(to: UnitTemperature.celsius)
+print("User input of temperature: \(tempInCelcious)")
+
+let speed = Measurement(value: 90, unit: UnitSpeed.kilometersPerHour)
