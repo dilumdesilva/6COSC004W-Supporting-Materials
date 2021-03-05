@@ -19,6 +19,7 @@ class PageOne: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        //To hide the navigation controller top bar
         self.navigationController?.isNavigationBarHidden = true;
     }
     
@@ -28,7 +29,9 @@ class PageOne: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //The navigation controller top bar
         self.navigationController?.isNavigationBarHidden = false;
+        
         if segue.identifier == "submitName" {
             let PageTwoVC: PageTwo = segue.destination as! PageTwo
             PageTwoVC.userName = nameTextField.text
