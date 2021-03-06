@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="TuteWeek07" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eYX-If-3h0">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="512"/>
+                                <subviews>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Zj-XS-uo8">
+                                        <rect key="frame" x="224" y="0.0" width="320" height="246"/>
+                                    </datePicker>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="67Y-ab-dRN">
+                                        <rect key="frame" x="224" y="266" width="320" height="246"/>
+                                    </datePicker>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mur-4z-TMU">
+                                <rect key="frame" x="20" y="512" width="728" height="512"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prV-mR-qct">
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="120.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKc-a9-BnF">
+                                        <rect key="frame" x="0.0" y="130.5" width="103" height="120.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days until:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5S-kZ-qy1">
+                                        <rect key="frame" x="0.0" y="261" width="79" height="120.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weeks and days until:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGW-00-AIH">
+                                        <rect key="frame" x="0.0" y="391.5" width="165" height="120.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eYX-If-3h0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2og-K0-G7B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mur-4z-TMU" secondAttribute="trailing" constant="20" id="3gM-fS-4ge"/>
+                            <constraint firstItem="Mur-4z-TMU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BKL-Ya-gpe"/>
+                            <constraint firstItem="eYX-If-3h0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BSt-eb-AO4"/>
+                            <constraint firstItem="eYX-If-3h0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CXS-iB-M02"/>
+                            <constraint firstItem="Mur-4z-TMU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LGT-Pw-m1s"/>
+                            <constraint firstItem="Mur-4z-TMU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="RZc-S3-98h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eYX-If-3h0" secondAttribute="trailing" id="W1I-dA-vdt"/>
+                            <constraint firstItem="eYX-If-3h0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="fuy-XQ-hp4"/>
+                            <constraint firstItem="Mur-4z-TMU" firstAttribute="top" secondItem="eYX-If-3h0" secondAttribute="bottom" id="pqC-Xw-ORY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePickerOne" destination="0Zj-XS-uo8" id="3UD-3Z-aCg"/>
+                        <outlet property="datePickerTwo" destination="67Y-ab-dRN" id="WwY-7M-N5I"/>
+                        <outlet property="daysUntilLabel" destination="M5S-kZ-qy1" id="pkE-I4-3O6"/>
+                        <outlet property="firstDateLabel" destination="prV-mR-qct" id="NVy-yY-7Hf"/>
+                        <outlet property="seconDateLabel" destination="hKc-a9-BnF" id="wwz-Lj-3pf"/>
+                        <outlet property="weeksAndDaysUntilLabel" destination="wGW-00-AIH" id="eRC-Jg-Cc2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13" y="-12"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
