@@ -23,3 +23,5 @@ This module was design by the university of westminster under the degree program
 - [Overview of UINavigationController](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
 - [Collection of common Swift terms](https://www.hackingwithswift.com/glossary)
 - [Deep dive into Swift 5 string inerpolation](https://www.hackingwithswift.com/articles/178/super-powered-string-interpolation-in-swift-5-0)
+- [Customizing the Behavior of Segue-Based Presentations](https://developer.apple.com/documentation/uikit/resource_management/customizing_the_behavior_of_segue-based_presentations)
+- [Calculating the difference in hours between two dates in Swift](https://www.donnywals.com/calculating-the-difference-in-hours-between-two-dates-in-swift/)
