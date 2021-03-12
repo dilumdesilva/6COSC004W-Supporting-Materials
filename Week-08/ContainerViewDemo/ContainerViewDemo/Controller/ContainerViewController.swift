@@ -23,6 +23,10 @@ class ContainerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        
+        //bounds vs frame
+        print("bounds: \(infoLabel.bounds)")
+        print("frame: \(infoLabel.frame)")
     }
     
     private func setupUI() {

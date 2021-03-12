@@ -11,7 +11,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="ContainerViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Week8Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Container View Controller-->
         <scene sceneID="Rwg-hP-hAj">
             <objects>
-                <viewController id="85u-nu-Euk" customClass="ContainerViewController" customModule="ContainerViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="85u-nu-Euk" customClass="ContainerViewController" customModule="Week8Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ApO-e9-MEi">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,6 +114,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="S1c-t1-cPi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rai-uu-khc" firstAttribute="centerX" secondItem="ApO-e9-MEi" secondAttribute="centerX" id="DlG-GF-DqF"/>
