@@ -12,3 +12,7 @@ var rectangleDim = CGSize(width: 200.0, height: 100.5)
 
 //CGRect to define a rectangle shape
 let reactangle = CGRect(origin: cordinates, size: rectangleDim)
+
+let path = UIBezierPath()
+path.move(to: CGPoint(x: 50, y: 70))
+path.addLine(to: CGPoint(x: 140, y: 180))
