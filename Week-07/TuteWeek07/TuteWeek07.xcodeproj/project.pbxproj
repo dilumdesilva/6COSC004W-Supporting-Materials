@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8AC918262A15D200A37374 /* Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AC917262A15D200A37374 /* Strings.plist */; };
+		4E8AC91B262A17C900A37374 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AC91A262A17C900A37374 /* Settings.bundle */; };
 		4EDAFB4025F33394001A5B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAFB3F25F33394001A5B46 /* AppDelegate.swift */; };
 		4EDAFB4225F33394001A5B46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAFB4125F33394001A5B46 /* SceneDelegate.swift */; };
 		4EDAFB4725F33394001A5B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAFB4525F33394001A5B46 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E8AC917262A15D200A37374 /* Strings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Strings.plist; sourceTree = "<group>"; };
+		4E8AC91A262A17C900A37374 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4EDAFB3C25F33394001A5B46 /* TuteWeek07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuteWeek07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDAFB3F25F33394001A5B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDAFB4125F33394001A5B46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				4EDAFB5425F333A7001A5B46 /* Common */,
 				4EDAFB4825F33397001A5B46 /* Assets.xcassets */,
 				4EDAFB4D25F33397001A5B46 /* Info.plist */,
+				4E8AC917262A15D200A37374 /* Strings.plist */,
+				4E8AC91A262A17C900A37374 /* Settings.bundle */,
 			);
 			path = TuteWeek07;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDAFB4C25F33397001A5B46 /* LaunchScreen.storyboard in Resources */,
+				4E8AC918262A15D200A37374 /* Strings.plist in Resources */,
+				4E8AC91B262A17C900A37374 /* Settings.bundle in Resources */,
 				4EDAFB4925F33397001A5B46 /* Assets.xcassets in Resources */,
 				4EDAFB4725F33394001A5B46 /* Main.storyboard in Resources */,
 			);

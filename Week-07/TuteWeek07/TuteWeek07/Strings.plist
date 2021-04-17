@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LabelFirstDate</key>
+	<string>First Date:</string>
+	<key>LabelSecondDate</key>
+	<string>Second Date:</string>
+	<key>LabelDaysUntil</key>
+	<string>Days Until:</string>
+	<key>LabelWeeksAndDaysUntil</key>
+	<string>Weeks and Days Until:</string>
+	<key>LabelFirstDateFrance</key>
+	<string>Premiere Date:</string>
+	<key>LabelSecondDateFrance</key>
+	<string>Deuxieme Date:</string>
+	<key>LabelDaysUntilFrance</key>
+	<string>Jours jusqua ce que:</string>
+	<key>LabelWeeksAndDaysUntilFrance</key>
+	<string>Semaines et jours jusqua:</string>
+</dict>
+</plist>
